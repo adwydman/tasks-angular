@@ -1,0 +1,24 @@
+.tasks-list {
+    border: 1px solid black;
+    border-radius: 1%;
+    width: 35rem;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.tasks-list .tasks {
+    list-style: none;
+}
+
+.add-task {
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.add-task input {
+    width: 30rem;
+}
+
+.weather-api {
+    position: absolute;
+}

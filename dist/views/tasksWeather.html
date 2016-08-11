@@ -1,0 +1,6 @@
+<div class="weather-api">
+    <span ng-if="!$ctrl.weather">Loading...</span>
+    <span ng-if="$ctrl.weather">
+        {{::$ctrl.weather.city}}, {{::$ctrl.weather.temperature}}&deg;C
+    </span>
+</div>

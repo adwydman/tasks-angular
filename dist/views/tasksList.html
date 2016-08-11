@@ -1,0 +1,8 @@
+<div class="tasks-list">
+    <ul class="tasks">
+        <li ng-repeat="task in tasks">
+            <input type="checkbox" ng-checked="task.done" ng-click="taskDone(task.id, !task.done)"/>
+            {{::task.task}}
+        </li>
+    </ul>
+</div>
