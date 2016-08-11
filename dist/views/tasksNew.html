@@ -1,4 +1,6 @@
 <div class="add-task">
-    <input type="text" placeholder="Add new task..." ng-model="$ctrl.newTask"/>
-    <button ng-click="$ctrl.addNewTask()">Add</button>
+    <form ng-submit="$ctrl.addNewTask()">
+        <input type="text" placeholder="Add new task..." ng-model="$ctrl.newTask"/>
+        <input type="submit" value="Add"/>
+    </form>
 </div>

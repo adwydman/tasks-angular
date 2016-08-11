@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.add-task input {
+.add-task input[type="text"] {
     width: 30rem;
 }
 
